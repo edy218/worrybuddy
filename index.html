@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WoeBox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🌧 WoeBox</h1>
+    <p class="subtitle">Leave your worries here. No one else will see them.</p>
+
+    <textarea id="woeInput" placeholder="Type your woe here..."></textarea>
+
+    <button onclick="submitWoe()">Let It Go</button>
+
+    <div id="responseCard" class="hidden">
+      <h2>💛 A Message For You</h2>
+      <p id="comfortMessage"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
